@@ -224,7 +224,7 @@ release; the PyTorch FP32 paths are the portable reference.
 
 ## Authors
 
-Abhijeet Solanki — Tennessee Technological University
+Mohmmaed Mahdi, Abhijeet Solanki, Dr. Syed Rafay Hasan, @Tennessee Technological University
 
 <!-- Add remaining co-authors here before the repository is made public. -->
 
