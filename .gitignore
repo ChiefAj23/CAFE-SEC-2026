@@ -1,0 +1,40 @@
+# ---------------------------------------------------------------------------
+# Third-party baseline weights (>100 MB, not redistributable here).
+# See docs/EXTERNAL_BASELINES.md for how to obtain or re-export each one.
+# ---------------------------------------------------------------------------
+artifacts/pcnn_best_opset20_dynB.onnx
+artifacts/poster_v2_fer2013_dynB.onnx
+artifacts/onnx_exports/face_det_rtdetr_train_clean2_op20_b1_640_static_shared_baseline.onnx
+
+# ---------------------------------------------------------------------------
+# Datasets — publicly available, fetched by the user. See docs/DATA.md.
+# ---------------------------------------------------------------------------
+data/FER2013.zip
+data/FER2013/
+data/wider_face_w_test/
+data/val
+
+# ---------------------------------------------------------------------------
+# Build / runtime artifacts
+# ---------------------------------------------------------------------------
+*.engine
+*.onnx.tmp
+/tmp_engines/
+runs/**/train*/
+runs/**/val*/
+runs/**/predict*/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
