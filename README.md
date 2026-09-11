@@ -1,6 +1,4 @@
-# CAFE
-
-**Compressed Architecture for Edge-Deployed Facial Expression Recognition in Ambient Invisible Intelligence**
+# CAFE: <ins>C</ins>ompressed <ins>A</ins>rchitecture for Edge-Deployed <ins>F</ins>acial <ins>E</ins>xpression Recognition in Ambient Invisible Intelligence
 
 [![Venue](https://img.shields.io/badge/ACM%2FIEEE%20SEC-2026-1f6feb)](https://acm-ieee-sec.org/2026/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
