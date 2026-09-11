@@ -1,0 +1,10 @@
+{
+  "lam": 0.25,
+  "surprise_to": "neutral",
+  "corrected_norm": true,
+  "detectors_skipped": [
+    "YOLO-INT8-P10",
+    "YOLO-INT8-P15"
+  ],
+  "skip_reason": "INT8 detector calibration requires WIDER FACE val"
+}

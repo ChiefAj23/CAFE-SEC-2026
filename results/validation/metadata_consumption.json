@@ -1,0 +1,57 @@
+{
+  "weights": "runs/classify/fer2013_s0/weights/best.pt",
+  "static": {
+    "f": {
+      "total_occurrences": 8,
+      "in_forward_path": 2,
+      "forward_sites": [
+        "tasks.py:177: if m.f != -1:  # if not from previous layer",
+        "tasks.py:178: x = y[m.f] if isinstance(m.f, int) else [x if j == -1 else y[j] for j in m.f]  # from earlier layers"
+      ]
+    },
+    "i": {
+      "total_occurrences": 16,
+      "in_forward_path": 3,
+      "forward_sites": [
+        "tasks.py:182: y.append(x if m.i in self.save else None)  # save output",
+        "tasks.py:185: if m.i in embed:",
+        "tasks.py:187: if m.i == max_idx:"
+      ]
+    },
+    "type": {
+      "total_occurrences": 5,
+      "in_forward_path": 0,
+      "forward_sites": []
+    },
+    "np": {
+      "total_occurrences": 1,
+      "in_forward_path": 0,
+      "forward_sites": []
+    },
+    "index": {
+      "total_occurrences": 0,
+      "in_forward_path": 0,
+      "forward_sites": []
+    }
+  },
+  "dynamic": {
+    "reads_during_forward": {
+      "f": 10,
+      "i": 10
+    },
+    "modules_defining_field": {
+      "f": 10,
+      "i": 10,
+      "type": 10,
+      "np": 10,
+      "index": 0
+    }
+  },
+  "verdicts": {
+    "f": "consumed",
+    "i": "consumed",
+    "type": "not consumed",
+    "np": "not consumed",
+    "index": "not consumed"
+  }
+}

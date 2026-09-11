@@ -20,9 +20,7 @@ data/val
 *.engine
 *.onnx.tmp
 /tmp_engines/
-runs/**/train*/
-runs/**/val*/
-runs/**/predict*/
+/tmp_engines_*/
 
 # Python
 __pycache__/

@@ -1,0 +1,150 @@
+{
+  "n_images": 3589,
+  "majority_class_rate_pct": 24.49,
+  "models": {
+    "ImpMobNetv3": {
+      "file": "mobilenetv3_best_opset20_dynB.onnx",
+      "published_top1_pct": 23.45,
+      "graph_has_normalization_prologue": false,
+      "graph_head_ops": [
+        "Shape",
+        "Conv",
+        "HardSwish",
+        "Conv",
+        "HardSwish",
+        "Conv"
+      ],
+      "variants": {
+        "as_published": {
+          "top1_acc_pct": 23.4,
+          "distinct_classes_predicted": 5,
+          "dominant_class": "neutral",
+          "dominant_class_share_pct": 80.72
+        },
+        "imagenet_norm": {
+          "top1_acc_pct": 61.66,
+          "distinct_classes_predicted": 7,
+          "dominant_class": "happy",
+          "dominant_class_share_pct": 24.27
+        },
+        "symmetric_norm": {
+          "top1_acc_pct": 37.78,
+          "distinct_classes_predicted": 7,
+          "dominant_class": "neutral",
+          "dominant_class_share_pct": 55.7
+        }
+      },
+      "best_variant": "imagenet_norm",
+      "gain_over_as_published_pp": 38.26,
+      "reproduces_published": true
+    },
+    "POSTERv2": {
+      "file": "poster_v2_fer2013_dynB.onnx",
+      "published_top1_pct": 59.25,
+      "graph_has_normalization_prologue": false,
+      "graph_head_ops": [
+        "Shape",
+        "Constant",
+        "Constant",
+        "Constant",
+        "Slice",
+        "Constant"
+      ],
+      "variants": {
+        "as_published": {
+          "top1_acc_pct": 59.1,
+          "distinct_classes_predicted": 7,
+          "dominant_class": "happy",
+          "dominant_class_share_pct": 32.99
+        },
+        "imagenet_norm": {
+          "top1_acc_pct": 73.61,
+          "distinct_classes_predicted": 7,
+          "dominant_class": "happy",
+          "dominant_class_share_pct": 25.49
+        },
+        "symmetric_norm": {
+          "top1_acc_pct": 69.52,
+          "distinct_classes_predicted": 7,
+          "dominant_class": "happy",
+          "dominant_class_share_pct": 29.31
+        }
+      },
+      "best_variant": "imagenet_norm",
+      "gain_over_as_published_pp": 14.51,
+      "reproduces_published": true
+    },
+    "PCNN": {
+      "file": "pcnn_best_opset20_dynB.onnx",
+      "published_top1_pct": 53.8,
+      "graph_has_normalization_prologue": false,
+      "graph_head_ops": [
+        "Identity",
+        "Identity",
+        "Identity",
+        "Identity",
+        "Identity",
+        "Identity"
+      ],
+      "variants": {
+        "as_published": {
+          "top1_acc_pct": 52.58,
+          "distinct_classes_predicted": 7,
+          "dominant_class": "happy",
+          "dominant_class_share_pct": 33.13
+        },
+        "imagenet_norm": {
+          "top1_acc_pct": 70.63,
+          "distinct_classes_predicted": 7,
+          "dominant_class": "happy",
+          "dominant_class_share_pct": 25.69
+        },
+        "symmetric_norm": {
+          "top1_acc_pct": 62.58,
+          "distinct_classes_predicted": 7,
+          "dominant_class": "sad",
+          "dominant_class_share_pct": 26.22
+        }
+      },
+      "best_variant": "imagenet_norm",
+      "gain_over_as_published_pp": 18.05,
+      "reproduces_published": false
+    },
+    "LANMSFF": {
+      "file": "two_path_massatt_pwfs_opset20.onnx",
+      "published_top1_pct": 38.3,
+      "graph_has_normalization_prologue": false,
+      "graph_head_ops": [
+        "Reshape",
+        "Conv",
+        "Mul",
+        "Add",
+        "Relu",
+        "Conv"
+      ],
+      "variants": {
+        "as_published": {
+          "top1_acc_pct": 39.15,
+          "distinct_classes_predicted": 7,
+          "dominant_class": "happy",
+          "dominant_class_share_pct": 24.21
+        },
+        "imagenet_norm": {
+          "top1_acc_pct": 26.61,
+          "distinct_classes_predicted": 7,
+          "dominant_class": "neutral",
+          "dominant_class_share_pct": 54.11
+        },
+        "symmetric_norm": {
+          "top1_acc_pct": 32.04,
+          "distinct_classes_predicted": 7,
+          "dominant_class": "neutral",
+          "dominant_class_share_pct": 44.0
+        }
+      },
+      "best_variant": "as_published",
+      "gain_over_as_published_pp": 0.0,
+      "reproduces_published": true
+    }
+  }
+}

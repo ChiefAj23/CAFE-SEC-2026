@@ -1,0 +1,56 @@
+MIT License
+
+Copyright (c) 2026 Abhijeet Solanki
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+THIRD-PARTY COMPONENTS
+================================================================================
+
+The MIT grant above covers the code, documentation, annotations, and
+measurement records authored for this artifact. It does not and cannot relicense
+the third-party components listed below, each of which remains under the terms
+set by its own authors. Anyone redistributing or building on this repository is
+responsible for complying with those terms.
+
+Ultralytics YOLO — AGPL-3.0
+    The compression and measurement code imports `ultralytics`, and the model
+    weights under `weights/` were fine-tuned from Ultralytics YOLOv12
+    checkpoints. Both the upstream package and works derived from its
+    checkpoints are governed by the GNU Affero General Public License v3.0.
+    Users who redistribute or network-deploy derivatives of those weights
+    should review the AGPL-3.0 obligations, which are not waived by this file.
+    https://github.com/ultralytics/ultralytics
+
+External baseline models
+    POSTERv2, PCNN, LANMSFF, and the improved MobileNetV3 variant are
+    third-party models, reproduced here only as ONNX exports for comparison.
+    Each remains under the license of its original authors. See
+    docs/EXTERNAL_BASELINES.md for the provenance and export settings of each.
+
+Datasets
+    WIDER FACE and FER2013 are not redistributed in this repository. Both carry
+    their own usage terms, which apply to anyone obtaining them. See
+    docs/DATA.md.
+
+The annotated multi-face stress set under `data/Stress_test/` consists of
+annotations authored for this work over images drawn from the WIDER FACE test
+split. The annotations are covered by the MIT grant above; the underlying
+images remain subject to the WIDER FACE terms.

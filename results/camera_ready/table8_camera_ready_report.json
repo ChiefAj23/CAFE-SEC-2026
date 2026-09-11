@@ -1,0 +1,72 @@
+{
+  "jetson": {
+    "rank1": "YOLO-FP16-P10 + YOLO-FP32-Base",
+    "rank1_edus": 0.9654,
+    "external_rank_ranges_over_yolo_dets": {
+      "MobileNetV3": {
+        "best": 7,
+        "worst_yolo_det": 32
+      },
+      "POSTERv2": {
+        "best": 73,
+        "worst_yolo_det": 86
+      },
+      "PCNN": {
+        "best": 64,
+        "worst_yolo_det": 70
+      },
+      "LANMSFF": {
+        "best": 24,
+        "worst_yolo_det": 59
+      }
+    },
+    "top10": [
+      "YOLO-FP16-P10 + YOLO-FP32-Base (EDUS 0.9654)",
+      "YOLO-FP16-P15 + YOLO-FP32-Base (EDUS 0.9616)",
+      "YOLO-FP16-P10 + YOLO-FP32-P10 (EDUS 0.9595)",
+      "YOLO-FP16-P15 + YOLO-FP32-P10 (EDUS 0.9486)",
+      "YOLO-FP16-P10 + YOLO-FP32-P15 (EDUS 0.9464)",
+      "YOLO-FP16-P15 + YOLO-FP32-P15 (EDUS 0.9444)",
+      "YOLO-FP16-P10 + MobileNetV3 (EDUS 0.9424)",
+      "YOLO-FP16-P10 + YOLO-FP16-P15 (EDUS 0.9407)",
+      "YOLO-INT8-P10 + MobileNetV3 (EDUS 0.9406)",
+      "YOLO-FP32-P15 + MobileNetV3 (EDUS 0.9390)"
+    ]
+  },
+  "desktop": {
+    "rank1": "YOLO-FP16-P15 + YOLO-FP32-Base",
+    "rank1_edus": 0.9683,
+    "external_rank_ranges_over_yolo_dets": {
+      "MobileNetV3": {
+        "best": 5,
+        "worst_yolo_det": 34
+      },
+      "POSTERv2": {
+        "best": 72,
+        "worst_yolo_det": 86
+      },
+      "PCNN": {
+        "best": 64,
+        "worst_yolo_det": 70
+      },
+      "LANMSFF": {
+        "best": 21,
+        "worst_yolo_det": 59
+      }
+    },
+    "top10": [
+      "YOLO-FP16-P15 + YOLO-FP32-Base (EDUS 0.9683)",
+      "YOLO-FP16-P10 + YOLO-FP32-P10 (EDUS 0.9566)",
+      "YOLO-FP16-P10 + YOLO-FP32-Base (EDUS 0.9556)",
+      "YOLO-FP16-P15 + YOLO-FP32-P10 (EDUS 0.9483)",
+      "YOLO-FP32-P15 + MobileNetV3 (EDUS 0.9478)",
+      "YOLO-FP16-P15 + YOLO-FP32-P15 (EDUS 0.9451)",
+      "YOLO-FP16-P10 + YOLO-FP16-P15 (EDUS 0.9450)",
+      "YOLO-FP16-P10 + YOLO-FP32-P15 (EDUS 0.9437)",
+      "YOLO-FP32-P15 + YOLO-FP32-Base (EDUS 0.9432)",
+      "YOLO-FP32-Base + YOLO-FP32-P10 (EDUS 0.9422)"
+    ]
+  },
+  "jetson_top10_max_desk_rank": 14,
+  "desktop_top3_max_jetson_rank": 3
+}

@@ -1,0 +1,175 @@
+{
+  "device": {
+    "power_mode": [
+      "NV Power Mode: 15W",
+      "0"
+    ],
+    "tegra_release": [
+      "# R36 (release), REVISION: 3.0, GCID: 36923193, BOARD: generic, EABI: aarch64, DATE: Fri Jul 19 23:24:25 UTC 2024",
+      "# KERNEL_VARIANT: oot"
+    ]
+  },
+  "idle": {
+    "samples": 65,
+    "ram_total_mb": 7620,
+    "ram_peak_mb": 3637,
+    "ram_mean_mb": 3637.0,
+    "ram_min_mb": 3637,
+    "power_peak_mw": 5840,
+    "power_mean_mw": 5228.8
+  },
+  "models": {
+    "det_P0": {
+      "role": "detector",
+      "config": "P0",
+      "onnx_size_mb": 10.52,
+      "engine_built": true,
+      "build_seconds": 738.9,
+      "build_ok": true,
+      "build_tegrastats": {
+        "samples": 6858,
+        "ram_total_mb": 7620,
+        "ram_peak_mb": 5467,
+        "ram_mean_mb": 5341.0,
+        "ram_min_mb": 3637,
+        "power_peak_mw": 9474,
+        "power_mean_mw": 6432.2
+      },
+      "engine_size_mb": 9.66,
+      "runtime": {
+        "samples": 61,
+        "ram_total_mb": 7620,
+        "ram_peak_mb": 4071,
+        "ram_mean_mb": 4015.9,
+        "ram_min_mb": 3805,
+        "power_peak_mw": 9896,
+        "power_mean_mw": 8246.3,
+        "run_ok": true,
+        "trtexec_throughput_line": "[07/20/2026-21:43:15] [I] Throughput: 73.2566 qps",
+        "trtexec_latency_line": "[07/20/2026-21:43:15] [I] D2H Latency: min = 0.0161133 ms, max = 0.0351562 ms, mean = 0.0268648 ms, median = 0.0266113 ms, percentile(90%) = 0.0317383 ms, percentile(95%) = 0.0322266 ms, percentile(99%) = 0.0341797 ms"
+      },
+      "peak_ram_delta_mb": 434.0,
+      "peak_ram_vs_onnx_ratio": 41.25
+    },
+    "det_P10": {
+      "role": "detector",
+      "config": "P10",
+      "onnx_size_mb": 9.55,
+      "engine_built": true,
+      "build_seconds": 751.4,
+      "build_ok": true,
+      "build_tegrastats": {
+        "samples": 6980,
+        "ram_total_mb": 7620,
+        "ram_peak_mb": 5543,
+        "ram_mean_mb": 5453.2,
+        "ram_min_mb": 3807,
+        "power_peak_mw": 9275,
+        "power_mean_mw": 6408.4
+      },
+      "engine_size_mb": 9.41,
+      "runtime": {
+        "samples": 60,
+        "ram_total_mb": 7620,
+        "ram_peak_mb": 4148,
+        "ram_mean_mb": 4095.7,
+        "ram_min_mb": 3884,
+        "power_peak_mw": 9315,
+        "power_mean_mw": 8231.8,
+        "run_ok": true,
+        "trtexec_throughput_line": "[07/20/2026-21:55:53] [I] Throughput: 71.4421 qps",
+        "trtexec_latency_line": "[07/20/2026-21:55:53] [I] D2H Latency: min = 0.0161133 ms, max = 0.0341797 ms, mean = 0.0282782 ms, median = 0.027832 ms, percentile(90%) = 0.0319824 ms, percentile(95%) = 0.0327148 ms, percentile(99%) = 0.0336914 ms"
+      },
+      "peak_ram_delta_mb": 511.0,
+      "peak_ram_vs_onnx_ratio": 53.51
+    },
+    "cls_P0": {
+      "role": "classifier",
+      "config": "P0",
+      "onnx_size_mb": 6.83,
+      "engine_built": true,
+      "build_seconds": 305.0,
+      "build_ok": true,
+      "build_tegrastats": {
+        "samples": 2840,
+        "ram_total_mb": 7620,
+        "ram_peak_mb": 5491,
+        "ram_mean_mb": 5368.0,
+        "ram_min_mb": 3884,
+        "power_peak_mw": 7735,
+        "power_mean_mw": 6140.1
+      },
+      "engine_size_mb": 5.71,
+      "runtime": {
+        "samples": 50,
+        "ram_total_mb": 7620,
+        "ram_peak_mb": 4028,
+        "ram_mean_mb": 3967.4,
+        "ram_min_mb": 3778,
+        "power_peak_mw": 7228,
+        "power_mean_mw": 6649.0,
+        "run_ok": true,
+        "trtexec_throughput_line": "[07/20/2026-22:01:03] [I] Throughput: 366.097 qps",
+        "trtexec_latency_line": "[07/20/2026-22:01:03] [I] D2H Latency: min = 0.00585938 ms, max = 0.0129395 ms, mean = 0.00950751 ms, median = 0.0090332 ms, percentile(90%) = 0.0119629 ms, percentile(95%) = 0.012207 ms, percentile(99%) = 0.0124512 ms"
+      },
+      "peak_ram_delta_mb": 391.0,
+      "peak_ram_vs_onnx_ratio": 57.25
+    },
+    "cls_P10": {
+      "role": "classifier",
+      "config": "P10",
+      "onnx_size_mb": 6.14,
+      "engine_built": true,
+      "build_seconds": 308.0,
+      "build_ok": true,
+      "build_tegrastats": {
+        "samples": 5749,
+        "ram_total_mb": 7620,
+        "ram_peak_mb": 5424,
+        "ram_mean_mb": 5315.2,
+        "ram_min_mb": 3758,
+        "power_peak_mw": 7655,
+        "power_mean_mw": 6117.1
+      },
+      "engine_size_mb": 5.54,
+      "runtime": {
+        "samples": 50,
+        "ram_total_mb": 7620,
+        "ram_peak_mb": 4010,
+        "ram_mean_mb": 3950.0,
+        "ram_min_mb": 3760,
+        "power_peak_mw": 7188,
+        "power_mean_mw": 6624.2,
+        "run_ok": true,
+        "trtexec_throughput_line": "[07/20/2026-22:06:17] [I] Throughput: 352.978 qps",
+        "trtexec_latency_line": "[07/20/2026-22:06:17] [I] D2H Latency: min = 0.00610352 ms, max = 0.0129395 ms, mean = 0.0096026 ms, median = 0.00927734 ms, percentile(90%) = 0.0117188 ms, percentile(95%) = 0.0119629 ms, percentile(99%) = 0.012207 ms"
+      },
+      "peak_ram_delta_mb": 373.0,
+      "peak_ram_vs_onnx_ratio": 60.75
+    },
+    "posterv2": {
+      "role": "classifier",
+      "config": "POSTERv2 (external)",
+      "onnx_size_mb": 180.72,
+      "engine_built": false,
+      "build_seconds": 9.3,
+      "build_ok": false,
+      "build_tegrastats": {
+        "samples": 87,
+        "ram_total_mb": 7620,
+        "ram_peak_mb": 5418,
+        "ram_mean_mb": 4233.6,
+        "ram_min_mb": 3656,
+        "power_peak_mw": 6629,
+        "power_mean_mw": 6012.4
+      },
+      "build_error_tail": [
+        "[07/20/2026-22:06:26] [E] Failed to parse onnx file",
+        "[07/20/2026-22:06:26] [E] Parsing model failed",
+        "[07/20/2026-22:06:26] [E] Failed to create engine from model or file.",
+        "[07/20/2026-22:06:26] [E] Engine set up failed"
+      ],
+      "verdict": "ENGINE BUILD FAILED"
+    }
+  }
+}

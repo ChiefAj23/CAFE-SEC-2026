@@ -1,0 +1,13 @@
+model,variant,published_top1_pct,top1_acc_pct,distinct_classes_predicted,dominant_class,dominant_class_share_pct
+ImpMobNetv3,as_published,23.45,23.4,5,neutral,80.72
+ImpMobNetv3,imagenet_norm,23.45,61.66,7,happy,24.27
+ImpMobNetv3,symmetric_norm,23.45,37.78,7,neutral,55.7
+POSTERv2,as_published,59.25,59.1,7,happy,32.99
+POSTERv2,imagenet_norm,59.25,73.61,7,happy,25.49
+POSTERv2,symmetric_norm,59.25,69.52,7,happy,29.31
+PCNN,as_published,53.8,52.58,7,happy,33.13
+PCNN,imagenet_norm,53.8,70.63,7,happy,25.69
+PCNN,symmetric_norm,53.8,62.58,7,sad,26.22
+LANMSFF,as_published,38.3,39.15,7,happy,24.21
+LANMSFF,imagenet_norm,38.3,26.61,7,neutral,54.11
+LANMSFF,symmetric_norm,38.3,32.04,7,neutral,44.0

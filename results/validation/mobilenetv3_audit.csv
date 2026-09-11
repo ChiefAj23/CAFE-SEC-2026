@@ -1,0 +1,5 @@
+variant,top1_acc_pct,n_images,distinct_classes_predicted,dominant_class,dominant_class_share_pct
+as_published,23.4,3589,5,neutral,80.72
+imagenet_norm,61.66,3589,7,happy,24.27
+symmetric_norm,37.78,3589,7,neutral,55.7
+bgr_imagenet_norm,61.66,3589,7,happy,24.27

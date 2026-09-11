@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+title: "CAFE: Compressed Architecture for Edge-Deployed Facial Expression Recognition in Ambient Invisible Intelligence"
+message: "If you use this artifact, please cite the paper below."
+type: software
+license: MIT
+repository-code: "https://github.com/ChiefAj23/CAFE-SEC-2026"
+authors:
+  - family-names: Mahdi
+    given-names: Mohammad Mahruf
+    affiliation: Tennessee Technological University
+  - family-names: Solanki
+    given-names: Abhijeet
+    affiliation: Tennessee Technological University
+  - family-names: Hasan
+    given-names: Syed Rafay
+    affiliation: Tennessee Technological University
+  - family-names: Guo
+    given-names: Terry
+    affiliation: Tennessee Technological University
+  - family-names: Rizvi
+    given-names: Syed Ali Asad
+    affiliation: Tennessee Technological University
+keywords:
+  - facial expression recognition
+  - model compression
+  - structured pruning
+  - edge computing
+  - ambient invisible intelligence
+  - YOLOv12
+  - TensorRT
+  - Jetson Orin Nano
+preferred-citation:
+  type: conference-paper
+  title: "CAFE: Compressed Architecture for Edge-Deployed Facial Expression Recognition in Ambient Invisible Intelligence"
+  collection-title: "Proceedings of the ACM/IEEE Symposium on Edge Computing (SEC)"
+  year: 2026
+  authors:
+    - family-names: Mahdi
+      given-names: Mohammad Mahruf
+      affiliation: Tennessee Technological University
+    - family-names: Solanki
+      given-names: Abhijeet
+      affiliation: Tennessee Technological University
+    - family-names: Hasan
+      given-names: Syed Rafay
+      affiliation: Tennessee Technological University
+    - family-names: Guo
+      given-names: Terry
+      affiliation: Tennessee Technological University
+    - family-names: Rizvi
+      given-names: Syed Ali Asad
+      affiliation: Tennessee Technological University

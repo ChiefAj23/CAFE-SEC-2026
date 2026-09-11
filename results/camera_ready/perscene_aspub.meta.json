@@ -1,0 +1,6 @@
+{
+  "lam": 0.25,
+  "surprise_to": "neutral",
+  "corrected_norm": false,
+  "int8_detector_calibration": "stress-set scenes (20 images, drawn from the WIDER FACE test split); the original protocol calibrates on the WIDER FACE validation split, which is not distributed with this repository"
+}

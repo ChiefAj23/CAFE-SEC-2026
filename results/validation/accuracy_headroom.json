@@ -1,0 +1,410 @@
+{
+  "desktop": {
+    "calibrated": [
+      {
+        "classifier": "LANMSFF",
+        "size_mb": 1.224,
+        "observed_e2e_acc_max": 0.4208,
+        "best_rank_observed": 8,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 7,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "MobileNetV3",
+        "size_mb": 5.148,
+        "observed_e2e_acc_max": 0.4084,
+        "best_rank_observed": 20,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 19,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "PCNN",
+        "size_mb": 103.524,
+        "observed_e2e_acc_max": 0.1616,
+        "best_rank_observed": 64,
+        "best_rank_with_perfect_accuracy": 64,
+        "rank_gain": 0,
+        "reaches_top_tier_with_perfect_accuracy": false
+      },
+      {
+        "classifier": "POSTERv2",
+        "size_mb": 180.56,
+        "observed_e2e_acc_max": 0.621,
+        "best_rank_observed": 71,
+        "best_rank_with_perfect_accuracy": 71,
+        "rank_gain": 0,
+        "reaches_top_tier_with_perfect_accuracy": false
+      },
+      {
+        "classifier": "YOLO-FP16-P10",
+        "size_mb": 3.396,
+        "observed_e2e_acc_max": 0.4622,
+        "best_rank_observed": 10,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 9,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "YOLO-FP16-P15",
+        "size_mb": 3.052,
+        "observed_e2e_acc_max": 0.4707,
+        "best_rank_observed": 2,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 1,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "YOLO-FP32-Base",
+        "size_mb": 6.792,
+        "observed_e2e_acc_max": 0.5282,
+        "best_rank_observed": 1,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 0,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "YOLO-FP32-P10",
+        "size_mb": 6.104,
+        "observed_e2e_acc_max": 0.5045,
+        "best_rank_observed": 3,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 2,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "YOLO-FP32-P15",
+        "size_mb": 5.74,
+        "observed_e2e_acc_max": 0.5028,
+        "best_rank_observed": 6,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 5,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "YOLO-INT8-P10",
+        "size_mb": 1.526,
+        "observed_e2e_acc_max": 0.4651,
+        "best_rank_observed": 11,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 10,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "YOLO-INT8-P15",
+        "size_mb": 1.435,
+        "observed_e2e_acc_max": 0.4357,
+        "best_rank_observed": 9,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 8,
+        "reaches_top_tier_with_perfect_accuracy": true
+      }
+    ],
+    "equal_memory_split": [
+      {
+        "classifier": "LANMSFF",
+        "size_mb": 1.224,
+        "observed_e2e_acc_max": 0.4208,
+        "best_rank_observed": 9,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 8,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "MobileNetV3",
+        "size_mb": 5.148,
+        "observed_e2e_acc_max": 0.4084,
+        "best_rank_observed": 16,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 15,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "PCNN",
+        "size_mb": 103.524,
+        "observed_e2e_acc_max": 0.1616,
+        "best_rank_observed": 64,
+        "best_rank_with_perfect_accuracy": 64,
+        "rank_gain": 0,
+        "reaches_top_tier_with_perfect_accuracy": false
+      },
+      {
+        "classifier": "POSTERv2",
+        "size_mb": 180.56,
+        "observed_e2e_acc_max": 0.621,
+        "best_rank_observed": 67,
+        "best_rank_with_perfect_accuracy": 66,
+        "rank_gain": 1,
+        "reaches_top_tier_with_perfect_accuracy": false
+      },
+      {
+        "classifier": "YOLO-FP16-P10",
+        "size_mb": 3.396,
+        "observed_e2e_acc_max": 0.4622,
+        "best_rank_observed": 8,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 7,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "YOLO-FP16-P15",
+        "size_mb": 3.052,
+        "observed_e2e_acc_max": 0.4707,
+        "best_rank_observed": 4,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 3,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "YOLO-FP32-Base",
+        "size_mb": 6.792,
+        "observed_e2e_acc_max": 0.5282,
+        "best_rank_observed": 1,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 0,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "YOLO-FP32-P10",
+        "size_mb": 6.104,
+        "observed_e2e_acc_max": 0.5045,
+        "best_rank_observed": 2,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 1,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "YOLO-FP32-P15",
+        "size_mb": 5.74,
+        "observed_e2e_acc_max": 0.5028,
+        "best_rank_observed": 6,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 5,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "YOLO-INT8-P10",
+        "size_mb": 1.526,
+        "observed_e2e_acc_max": 0.4651,
+        "best_rank_observed": 11,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 10,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "YOLO-INT8-P15",
+        "size_mb": 1.435,
+        "observed_e2e_acc_max": 0.4357,
+        "best_rank_observed": 10,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 9,
+        "reaches_top_tier_with_perfect_accuracy": true
+      }
+    ]
+  },
+  "jetson": {
+    "calibrated": [
+      {
+        "classifier": "LANMSFF",
+        "size_mb": 1.224,
+        "observed_e2e_acc_max": 0.4316,
+        "best_rank_observed": 12,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 11,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "MobileNetV3",
+        "size_mb": 5.148,
+        "observed_e2e_acc_max": 0.4053,
+        "best_rank_observed": 17,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 16,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "PCNN",
+        "size_mb": 103.524,
+        "observed_e2e_acc_max": 0.1553,
+        "best_rank_observed": 64,
+        "best_rank_with_perfect_accuracy": 64,
+        "rank_gain": 0,
+        "reaches_top_tier_with_perfect_accuracy": false
+      },
+      {
+        "classifier": "POSTERv2",
+        "size_mb": 180.56,
+        "observed_e2e_acc_max": 0.6366,
+        "best_rank_observed": 71,
+        "best_rank_with_perfect_accuracy": 71,
+        "rank_gain": 0,
+        "reaches_top_tier_with_perfect_accuracy": false
+      },
+      {
+        "classifier": "YOLO-FP16-P10",
+        "size_mb": 3.396,
+        "observed_e2e_acc_max": 0.4553,
+        "best_rank_observed": 11,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 10,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "YOLO-FP16-P15",
+        "size_mb": 3.052,
+        "observed_e2e_acc_max": 0.4582,
+        "best_rank_observed": 4,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 3,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "YOLO-FP32-Base",
+        "size_mb": 6.792,
+        "observed_e2e_acc_max": 0.5189,
+        "best_rank_observed": 1,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 0,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "YOLO-FP32-P10",
+        "size_mb": 6.104,
+        "observed_e2e_acc_max": 0.5052,
+        "best_rank_observed": 2,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 1,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "YOLO-FP32-P15",
+        "size_mb": 5.74,
+        "observed_e2e_acc_max": 0.4965,
+        "best_rank_observed": 6,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 5,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "YOLO-INT8-P10",
+        "size_mb": 1.526,
+        "observed_e2e_acc_max": 0.4598,
+        "best_rank_observed": 13,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 12,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "YOLO-INT8-P15",
+        "size_mb": 1.435,
+        "observed_e2e_acc_max": 0.4431,
+        "best_rank_observed": 5,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 4,
+        "reaches_top_tier_with_perfect_accuracy": true
+      }
+    ],
+    "equal_memory_split": [
+      {
+        "classifier": "LANMSFF",
+        "size_mb": 1.224,
+        "observed_e2e_acc_max": 0.4316,
+        "best_rank_observed": 12,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 11,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "MobileNetV3",
+        "size_mb": 5.148,
+        "observed_e2e_acc_max": 0.4053,
+        "best_rank_observed": 15,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 14,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "PCNN",
+        "size_mb": 103.524,
+        "observed_e2e_acc_max": 0.1553,
+        "best_rank_observed": 64,
+        "best_rank_with_perfect_accuracy": 64,
+        "rank_gain": 0,
+        "reaches_top_tier_with_perfect_accuracy": false
+      },
+      {
+        "classifier": "POSTERv2",
+        "size_mb": 180.56,
+        "observed_e2e_acc_max": 0.6366,
+        "best_rank_observed": 66,
+        "best_rank_with_perfect_accuracy": 66,
+        "rank_gain": 0,
+        "reaches_top_tier_with_perfect_accuracy": false
+      },
+      {
+        "classifier": "YOLO-FP16-P10",
+        "size_mb": 3.396,
+        "observed_e2e_acc_max": 0.4553,
+        "best_rank_observed": 10,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 9,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "YOLO-FP16-P15",
+        "size_mb": 3.052,
+        "observed_e2e_acc_max": 0.4582,
+        "best_rank_observed": 5,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 4,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "YOLO-FP32-Base",
+        "size_mb": 6.792,
+        "observed_e2e_acc_max": 0.5189,
+        "best_rank_observed": 1,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 0,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "YOLO-FP32-P10",
+        "size_mb": 6.104,
+        "observed_e2e_acc_max": 0.5052,
+        "best_rank_observed": 2,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 1,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "YOLO-FP32-P15",
+        "size_mb": 5.74,
+        "observed_e2e_acc_max": 0.4965,
+        "best_rank_observed": 4,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 3,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "YOLO-INT8-P10",
+        "size_mb": 1.526,
+        "observed_e2e_acc_max": 0.4598,
+        "best_rank_observed": 13,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 12,
+        "reaches_top_tier_with_perfect_accuracy": true
+      },
+      {
+        "classifier": "YOLO-INT8-P15",
+        "size_mb": 1.435,
+        "observed_e2e_acc_max": 0.4431,
+        "best_rank_observed": 8,
+        "best_rank_with_perfect_accuracy": 1,
+        "rank_gain": 7,
+        "reaches_top_tier_with_perfect_accuracy": true
+      }
+    ]
+  }
+}

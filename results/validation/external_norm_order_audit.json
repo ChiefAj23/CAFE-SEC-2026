@@ -1,0 +1,186 @@
+{
+  "n_images": 3589,
+  "majority_class_rate_pct": 24.49,
+  "models": {
+    "ImpMobNetv3": {
+      "published_top1_pct": 23.45,
+      "grid": {
+        "none|alphabetical": {
+          "top1_acc_pct": 23.4,
+          "distinct_classes": 5,
+          "dominant_class": "neutral",
+          "dominant_share_pct": 80.72
+        },
+        "none|kaggle": {
+          "top1_acc_pct": 20.56,
+          "distinct_classes": 5,
+          "dominant_class": "sad",
+          "dominant_share_pct": 80.72
+        },
+        "imagenet|alphabetical": {
+          "top1_acc_pct": 61.66,
+          "distinct_classes": 7,
+          "dominant_class": "happy",
+          "dominant_share_pct": 24.27
+        },
+        "imagenet|kaggle": {
+          "top1_acc_pct": 38.56,
+          "distinct_classes": 7,
+          "dominant_class": "happy",
+          "dominant_share_pct": 24.27
+        },
+        "symmetric|alphabetical": {
+          "top1_acc_pct": 37.78,
+          "distinct_classes": 7,
+          "dominant_class": "neutral",
+          "dominant_share_pct": 55.7
+        },
+        "symmetric|kaggle": {
+          "top1_acc_pct": 28.11,
+          "distinct_classes": 7,
+          "dominant_class": "sad",
+          "dominant_share_pct": 55.7
+        }
+      },
+      "best_config": "imagenet|alphabetical",
+      "best_top1_pct": 61.66,
+      "gain_over_published_pp": 38.21,
+      "reproduces_published": true
+    },
+    "POSTERv2": {
+      "published_top1_pct": 59.25,
+      "grid": {
+        "none|alphabetical": {
+          "top1_acc_pct": 59.1,
+          "distinct_classes": 7,
+          "dominant_class": "happy",
+          "dominant_share_pct": 32.99
+        },
+        "none|kaggle": {
+          "top1_acc_pct": 37.14,
+          "distinct_classes": 7,
+          "dominant_class": "happy",
+          "dominant_share_pct": 32.99
+        },
+        "imagenet|alphabetical": {
+          "top1_acc_pct": 73.61,
+          "distinct_classes": 7,
+          "dominant_class": "happy",
+          "dominant_share_pct": 25.49
+        },
+        "imagenet|kaggle": {
+          "top1_acc_pct": 43.72,
+          "distinct_classes": 7,
+          "dominant_class": "happy",
+          "dominant_share_pct": 25.49
+        },
+        "symmetric|alphabetical": {
+          "top1_acc_pct": 69.52,
+          "distinct_classes": 7,
+          "dominant_class": "happy",
+          "dominant_share_pct": 29.31
+        },
+        "symmetric|kaggle": {
+          "top1_acc_pct": 41.01,
+          "distinct_classes": 7,
+          "dominant_class": "happy",
+          "dominant_share_pct": 29.31
+        }
+      },
+      "best_config": "imagenet|alphabetical",
+      "best_top1_pct": 73.61,
+      "gain_over_published_pp": 14.36,
+      "reproduces_published": true
+    },
+    "PCNN": {
+      "published_top1_pct": 53.8,
+      "grid": {
+        "none|alphabetical": {
+          "top1_acc_pct": 52.58,
+          "distinct_classes": 7,
+          "dominant_class": "happy",
+          "dominant_share_pct": 33.13
+        },
+        "none|kaggle": {
+          "top1_acc_pct": 34.33,
+          "distinct_classes": 7,
+          "dominant_class": "happy",
+          "dominant_share_pct": 33.13
+        },
+        "imagenet|alphabetical": {
+          "top1_acc_pct": 70.63,
+          "distinct_classes": 7,
+          "dominant_class": "happy",
+          "dominant_share_pct": 25.69
+        },
+        "imagenet|kaggle": {
+          "top1_acc_pct": 43.58,
+          "distinct_classes": 7,
+          "dominant_class": "happy",
+          "dominant_share_pct": 25.69
+        },
+        "symmetric|alphabetical": {
+          "top1_acc_pct": 62.58,
+          "distinct_classes": 7,
+          "dominant_class": "sad",
+          "dominant_share_pct": 26.22
+        },
+        "symmetric|kaggle": {
+          "top1_acc_pct": 37.34,
+          "distinct_classes": 7,
+          "dominant_class": "surprise",
+          "dominant_share_pct": 26.22
+        }
+      },
+      "best_config": "imagenet|alphabetical",
+      "best_top1_pct": 70.63,
+      "gain_over_published_pp": 16.83,
+      "reproduces_published": true
+    },
+    "LANMSFF": {
+      "published_top1_pct": 38.3,
+      "grid": {
+        "none|alphabetical": {
+          "top1_acc_pct": 39.15,
+          "distinct_classes": 7,
+          "dominant_class": "happy",
+          "dominant_share_pct": 24.21
+        },
+        "none|kaggle": {
+          "top1_acc_pct": 68.6,
+          "distinct_classes": 7,
+          "dominant_class": "happy",
+          "dominant_share_pct": 24.21
+        },
+        "imagenet|alphabetical": {
+          "top1_acc_pct": 26.61,
+          "distinct_classes": 7,
+          "dominant_class": "neutral",
+          "dominant_share_pct": 54.11
+        },
+        "imagenet|kaggle": {
+          "top1_acc_pct": 31.29,
+          "distinct_classes": 7,
+          "dominant_class": "sad",
+          "dominant_share_pct": 54.11
+        },
+        "symmetric|alphabetical": {
+          "top1_acc_pct": 32.04,
+          "distinct_classes": 7,
+          "dominant_class": "neutral",
+          "dominant_share_pct": 44.0
+        },
+        "symmetric|kaggle": {
+          "top1_acc_pct": 44.41,
+          "distinct_classes": 7,
+          "dominant_class": "sad",
+          "dominant_share_pct": 44.0
+        }
+      },
+      "best_config": "none|kaggle",
+      "best_top1_pct": 68.6,
+      "gain_over_published_pp": 30.3,
+      "reproduces_published": true
+    }
+  }
+}

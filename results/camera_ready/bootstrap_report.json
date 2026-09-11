@@ -1,0 +1,54 @@
+{
+  "jetson_raw": {
+    "reference_rank1": "YOLO-FP16-P10 + LANMSFF",
+    "p_rank1_stable": 0.9855,
+    "p_rank1_fp16_detector": 1.0,
+    "top10_overlap_mean": 7.9227,
+    "top10_overlap_p5": 6.0,
+    "rank1_e2e_acc_ci95": [
+      0.5757531712473574,
+      0.7540983606557377
+    ],
+    "p_posterv2_and_pcnn_below_rank60": 1.0,
+    "n_bootstrap": 10000
+  },
+  "jetson_centered": {
+    "reference_rank1": "YOLO-FP16-P10 + YOLO-FP32-Base",
+    "p_rank1_stable": 0.3142,
+    "p_rank1_fp16_detector": 0.9927,
+    "top10_overlap_mean": 6.6526,
+    "top10_overlap_p5": 5.0,
+    "rank1_e2e_acc_ci95": [
+      0.39129224724783135,
+      0.6520425171616034
+    ],
+    "p_posterv2_and_pcnn_below_rank60": 1.0,
+    "n_bootstrap": 10000
+  },
+  "desktop_raw": {
+    "reference_rank1": "YOLO-FP16-P10 + LANMSFF",
+    "p_rank1_stable": 0.9739,
+    "p_rank1_fp16_detector": 0.9993,
+    "top10_overlap_mean": 7.9217,
+    "top10_overlap_p5": 6.0,
+    "rank1_e2e_acc_ci95": [
+      0.5757531712473574,
+      0.7540983606557377
+    ],
+    "p_posterv2_and_pcnn_below_rank60": 1.0,
+    "n_bootstrap": 10000
+  },
+  "desktop_centered": {
+    "reference_rank1": "YOLO-FP16-P15 + YOLO-FP32-Base",
+    "p_rank1_stable": 0.4072,
+    "p_rank1_fp16_detector": 0.9599,
+    "top10_overlap_mean": 6.0642,
+    "top10_overlap_p5": 3.0,
+    "rank1_e2e_acc_ci95": [
+      0.3987234159779614,
+      0.6573900563864923
+    ],
+    "p_posterv2_and_pcnn_below_rank60": 1.0,
+    "n_bootstrap": 10000
+  }
+}

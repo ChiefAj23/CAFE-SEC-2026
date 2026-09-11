@@ -1,0 +1,26 @@
+# Dependencies for the follow-up experiments.
+#
+# Install torch from the CUDA 12.8 index, not from PyPI:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+# Blackwell-generation GPUs are compute capability 12.0 and have no kernels in
+# the cu126 builds.
+
+ultralytics==8.4.14
+
+# Must be 10.x. TensorRT 11 removed NetworkDefinitionCreationFlag.EXPLICIT_BATCH,
+# which Ultralytics 8.4.14 still calls, so every engine export fails on it.
+tensorrt==10.15.1.29
+
+# Plain onnxruntime, not onnxruntime-gpu: the GPU wheel fails at import with a
+# libcudart version mismatch on CUDA 12 systems. Only the external baselines use
+# the ONNX path, where CPU execution is sufficient and keeps the classifier
+# comparison on one runtime.
+onnxruntime
+onnx
+
+torchinfo>=1.8.0
+opencv-python-headless>=4.8
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+PyYAML>=6.0

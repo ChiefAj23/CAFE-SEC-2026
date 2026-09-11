@@ -1,0 +1,52 @@
+{
+  "runtime": "onnxruntime 1.23.2 CPUExecutionProvider",
+  "idle": {
+    "ram_total_mb": 7620,
+    "ram_peak_mb": 3627,
+    "ram_mean_mb": 3627.0,
+    "samples": 65,
+    "power_peak_mw": 6469,
+    "power_mean_mw": 5307.4
+  },
+  "models": {
+    "cls_P0": {
+      "ram_total_mb": 7620,
+      "ram_peak_mb": 3651,
+      "ram_mean_mb": 3637.1,
+      "samples": 16,
+      "power_peak_mw": 7894,
+      "power_mean_mw": 5916.6,
+      "mean_latency_ms": 14.07,
+      "onnx_size_mb": 6.83,
+      "peak_ram_delta_mb": 24.0,
+      "peak_ram_vs_onnx_ratio": 3.51,
+      "config": "CAFE P0"
+    },
+    "cls_P10": {
+      "ram_total_mb": 7620,
+      "ram_peak_mb": 3651,
+      "ram_mean_mb": 3651.0,
+      "samples": 15,
+      "power_peak_mw": 7814,
+      "power_mean_mw": 6406.8,
+      "mean_latency_ms": 12.89,
+      "onnx_size_mb": 6.14,
+      "peak_ram_delta_mb": 24.0,
+      "peak_ram_vs_onnx_ratio": 3.91,
+      "config": "CAFE P10"
+    },
+    "posterv2": {
+      "ram_total_mb": 7620,
+      "ram_peak_mb": 3866,
+      "ram_mean_mb": 3843.8,
+      "samples": 111,
+      "power_peak_mw": 8956,
+      "power_mean_mw": 8458.6,
+      "mean_latency_ms": 239.55,
+      "onnx_size_mb": 180.72,
+      "peak_ram_delta_mb": 239.0,
+      "peak_ram_vs_onnx_ratio": 1.32,
+      "config": "POSTERv2 (external)"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "model": "mobilenetv3_best_opset20_dynB.onnx",
+  "split": "PrivateTest",
+  "n_images": 3589,
+  "majority_class_rate_pct": 24.49,
+  "graph_has_normalization_prologue": false,
+  "graph_head_ops": [
+    "Shape",
+    "Conv",
+    "HardSwish",
+    "Conv",
+    "HardSwish",
+    "Conv",
+    "Add",
+    "Conv"
+  ],
+  "variants": {
+    "as_published": {
+      "top1_acc_pct": 23.4,
+      "n_images": 3589,
+      "distinct_classes_predicted": 5,
+      "dominant_class": "neutral",
+      "dominant_class_share_pct": 80.72,
+      "pred_histogram": {
+        "angry": 17,
+        "happy": 585,
+        "neutral": 2897,
+        "sad": 3,
+        "surprise": 87
+      }
+    },
+    "imagenet_norm": {
+      "top1_acc_pct": 61.66,
+      "n_images": 3589,
+      "distinct_classes_predicted": 7,
+      "dominant_class": "happy",
+      "dominant_class_share_pct": 24.27,
+      "pred_histogram": {
+        "angry": 488,
+        "disgust": 35,
+        "fear": 549,
+        "happy": 871,
+        "neutral": 604,
+        "sad": 671,
+        "surprise": 371
+      }
+    },
+    "symmetric_norm": {
+      "top1_acc_pct": 37.78,
+      "n_images": 3589,
+      "distinct_classes_predicted": 7,
+      "dominant_class": "neutral",
+      "dominant_class_share_pct": 55.7,
+      "pred_histogram": {
+        "angry": 172,
+        "disgust": 6,
+        "fear": 12,
+        "happy": 942,
+        "neutral": 1999,
+        "sad": 134,
+        "surprise": 324
+      }
+    },
+    "bgr_imagenet_norm": {
+      "top1_acc_pct": 61.66,
+      "n_images": 3589,
+      "distinct_classes_predicted": 7,
+      "dominant_class": "happy",
+      "dominant_class_share_pct": 24.27,
+      "pred_histogram": {
+        "angry": 488,
+        "disgust": 35,
+        "fear": 549,
+        "happy": 871,
+        "neutral": 604,
+        "sad": 671,
+        "surprise": 371
+      }
+    }
+  },
+  "label_permutation_as_published": {
+    "upper_bound_acc_pct": 21.79,
+    "permutation": {
+      "angry": "fear",
+      "disgust": "disgust",
+      "fear": "neutral",
+      "happy": "angry",
+      "neutral": "happy",
+      "sad": "sad",
+      "surprise": "surprise"
+    },
+    "is_identity": false
+  }
+}
